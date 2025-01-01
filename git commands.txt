@@ -1,0 +1,45 @@
+Microsoft Windows [Version 10.0.22631.4169]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\try>code .
+
+C:\try>git init .
+Initialized empty Git repository in C:/try/.git/
+
+C:\try>git add .
+
+C:\try>git commit -m "final"
+[master (root-commit) 556b30b] final
+ 1 file changed, 11 insertions(+)
+ create mode 100644 index.html
+
+C:\try>git remote add origin https://github.com/abhirampaka/try.git
+
+C:\try>git push origin HEAD:main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 370 bytes | 370.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/abhirampaka/try.git
+ * [new branch]      HEAD -> main
+
+C:\try>git add .
+
+C:\try>git commit -m "final"
+[master 66f617f] final
+ 1 file changed, 4 insertions(+)
+ create mode 100644 a.txt
+
+C:\try>git push origin HEAD:main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 324 bytes | 324.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/abhirampaka/try.git
+   556b30b..66f617f  HEAD -> main
+
+C:\try>
