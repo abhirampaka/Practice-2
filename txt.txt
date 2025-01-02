@@ -1,0 +1,6 @@
+<<<<<<< HEAD
+Hii
+=======
+helloooo hii
+
+>>>>>>> 1889758 (Added txt file)
